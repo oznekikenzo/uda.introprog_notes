@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<head>
+  <title>Intro To Prog Notes</title>
+<link rel="stylesheet" type="text/css" href="Stage2CourseNotes.css">
+</head>
+ <body>
+  
+  <div class="leather">
+   <div class="graphpaper">
+     <h1>Udacity: Intro To Programming Course Notes</h1>
+   <div class="stage-name">Stage 2: Communicating with Computers</div>
+   </div>
+  </div>
+
+  <div class="leather">
+  	<h2>Lesson 1: Intro to Programming</h2><div class="graphpaper">	
+	<div class="concept-name">Computers, Programs, and Programming Languages</div>
+	<div class="concept-summary"></div>
+		<p><span class="italic-weight">Computers</span> are programmable electronic machines for storing and processing data. <span class="italic-weight">Programs</span> are specific, well defined, and preodered sets of instructions for the computer to execute. Without programs, computers are useless.</p>
+		
+		<p>A <span class="italic-weight">programming language</span>, is a vocabulary and set of grammatical rules for instructing the computer to perform specific actions. There are <span class="italic-weight">high-level languages</span>, which are closer to human language, and <span class="italic-weight">low-level</span> or <span class="italic-weight">assembly languages</span>, which are closer to <span class="italic-weight">machine language</span>, the language the computer understands. Assembly languages are more difficult to write programs in, than high-level languages. </p>
+		<p><span class="italic-weight">Python</span>, a high-level language, is an <span class="italic-weight">interpreter</span> we use to translate programs into <span class="italic-weight">machine language</span>. Machine language is <span class="italic-weight">entirely numbers</span>, this is why programmers use high and low-level languages to communicate with computers.</p>
+		<p><a href="http://www.webopedia.com/FIG/PROG-LAN.gif">This image</a> provides a clear visual of the language hierarchy.</p>
+	
+		<p>Programming languages are needed because they provide a <span class="italic-weight">universal</span> and <span class="italic-weight">exact interpertation</span>. Natural languages, like English, are <span class="italic-weight">ambiguous</span>, they can be interperted by diffrent people in diffrent ways.</p>
+
+		<p>Natural languages are also too <span class="italic-weight">verbose</span>. Programming languages only require a few lines of code to describe complicated objects and the description is written in a precise step by step order. A huge amount of text would be needed to explain objects in natural languages.</p> 
+	</div>	 
+  </div>				
+
+  <div class="leather">
+  	<h2>Lesson 2: Variables and Strings</h2>
+  	<div class="graphpaper">	
+	<div class="concept-name">Variables</div>
+	<div class="concept-summary"></div>	  
+		<p>In this stage we will be using <span class="italic-weight">Python</span> to learn about variables and strings. In Python the input is evaluated using the print command and the name of what is to be evaluated.</p>
+
+		<p>Here's an example: name = "kenzo kenzo kenzo"<br>
+		To evaluate 'name' type: print kenzo<br></p>
+
+		<p>A <span class="italic-weight">variable</span> is an assigned <span class="italic-weight">name</span> to keep track of an <span class="italic-weight">expression</span>.
+		An <span class="italic-weight">assignment statement</span> is used to introduce the variable, below is an example of the format:</p>
+		
+		<p>s = expression</p>
+
+		<p>As an example for this lesson the 's' is 'name' and the 'expression' is "kenzo kenzo kenzo".</p>
+
+
+		<p>The expresssion can be a combination of <span class="italic-weight">operands (values)</span> and <span class="italic-weight">operators</span>, they <span class="italic-weight">always</span> evaluate to a <span class="italic-weight">single value</span>. The <span class="italic-weight">expression</span> can be any sequence of letters, numbers, and symbols. 
+		The <span class="italic-weight">names</span> can be any sequence of letters or numbers, as well as underscores, as long as it starts with a letter or an underscore. Operands are the data that will be manipulated by the operator. Operators are symbols that describe a function.</p>
+		
+
+		<p>Variables are essentially storage boxes for values.</p>
+
+		<p>
+		<p>The name on the left refers to the value of the expression. When a variable's value is <span class="italic-weight">changed</span>, the name now refers to the <span class="italic-weight">current value</span>. Therefore a variable can have <span class="italic-weight">infinate values</span>, but will only ever equate as the current value. This is how variables vary.</p>
+
+		<p>The "=" means assignment. Think of it as an arrow that says to use the value on the right side, in place of the name on the left side of the statement.</p>
+
+		<p>Variables are convenient, because you can use assignment statements to identify long strings in just a few characters. It's preferred to not use upper case letters when naming variables.</p>
+
+	</div>
+	
+	<div class="graphpaper">
+	<div class="concept-name">Strings</div>	
+	<div class="concept-summary"></div>
+		<p>A <span class="italic-weight">string</span> is a sequence of characters surrounded by a single or double quote. You must start and finish the string with the same type of quotation. Anything that can be typed on a keyboard is a string, including spaces. 'This is a string!'. There are also strings called empty strings, they have no value, it's simply a blank space. In programming this is called an <span class="italic-weight">edge case</span>. It's often the cause of bugs, since it's a rare case and can be forgotten.</p>
+
+		<p>Using the "+" operator with strings will concatenate, or link together two strings. This is diffrent than when working with numbers, where 2 + 2 evaluates to 4.
+		When working with strings, "2" + "2" evaluates to '22'. The output of "hello" + "world", will produce 'helloworld'. To get a space seperating the words, you have to type it into the first string as such, "hello " + "world" producing, 'hello world'.</p>
+
+		<p>Strings and numbers can't be added (concatenated, '+'') together. Strings and numbers can be multiplied. "kenzo" * 3 will produce 'kenzokenzokenzo'. The concept of adding the space applies here as well.</p>
+	</div>
+
+	<div class="graphpaper">
+	<div class="concept-name">Indexing Strings</div> <div class="concept-summary"></div>
+		<p>Since a string is a sequence of characters, subsequences can be extracted from the strings by using the square brackets, '[string]', this can't be done with numbers. The characters of the string are indexed from left to right starting at zero. In the string, "kenzo", there would be index numbers for positions 0-4, "k" would be 0 and "z" would be 4.</p>
+
+		<p>The expression inside the brackets can be anything that evaluates to a number, such as "kenzo" [1+1] is 2, the output would be 'n' since that character takes that position.
+		Negative numbers can be used too, but the count will start from the right side of the string and count to the left side. So, "kenzo" [-2] would evaluate to 'z'. Positions that don't exist cannot be indexed.</p>
+	</div>
+
+	<div class="graphpaper">
+	<div class="concept-name">Selecting Subsequences</div> <div class="concept-summary"></div>
+		<p>To select a subsequence, larger than one character in a string, two expressions are needed in the square brackets, they are seperated by a colon. This will evaluate to a string of characters from the <span class="italic-weight">input string</span> named in the variable.</p>
+
+		<p>In this example: name = "kenzo", name [1:4]. 'name' is the variable's name, [1:4] is the range to be extracted.</p>
+
+		<p>Python will interpret '1' as the <span class="italic-weight">start position</span> of the subsequence and '4' as the <span class="italic-weight">stop position</span>, but <span class="italic-weight">will not include</span> this position in the evaluation. It can be thought of as <span class="italic-weight">stop position, minus 1</span>. The example evaluates to the string 'enz'.</p>
+
+		<p>In the example, if the <span class="italic-weight">right side expression</span> in the brackets is blank, name [1: ], position 1 to the end is evaluated, producing 'enzo'. When the <span class="italic-weight">left side</span> expression is blank, name [ :4], position 0 to 4 (minus 1), is evaluated as 'kenz'. That evaluation can also be had by leaving the left expression blank and '-1' on the right side, name [: -1 ]. This is asking to <span class="italic-weight">start</span> the evaluation at position 0 and <span class="italic-weight">stop</span> at minus one from the end of the string, position 4, but not include that position.</p>
+
+		<p>Positions that don't exist can be included in the subsequence selection.</p>
+
+		<p>In this example: name = "kenzo"</p>
+		
+		<p>There are positions 0-4 in the string 'kenzo'. If position 5 to infinity (blank right expression) were selected, name [5:], and concatenated to , name [:5], 'kenzo' would be evaluated. Everthing between position 0-5 is evaluated as 'kenzo'. Position 5 to infinity is evaluated as nothing, since the are no characters there. Concatenate that nothing to 'kenzo', you get 'kenzo'. </p>  
+	</div>
+
+	<div class="graphpaper">
+	<div class="concept-name">Finding Strings In Strings</div> <div class="concept-summary"></div>
+ 	<p>To find a substring in a larger string, a built in procedure known as a <span class="italic-weight">method</span> is used. Python calls this method <span class="italic-weight">'find'</span>. Find is a <span class="italic-weight">function</span> that operates on strings.</p>
+
+ 	<p>The find method can be used to locate a string in a variable.<br>
+
+	Using the variable: name= "kenzo kenzo kenzo"<br> 
+
+	To locate the position of "enzo", input to Python: name<span class="italic-weight">.find</span>("enzo")<br>
+ 		 
+ 	name identifies the <span class="italic-weight">search string</span><br>
+ 	
+ 	.find is the <span class="italic-weight">method</span> that will operate on the string<br>
+ 	
+ 	"enzo" identifies the <span class="italic-weight">target string</span></p>
+ 
+ 	<p>The input to Python is asking to find the position in 'name' where "enzo" first occurs. The output will be position 1. If the target string is not found '-1' will be the output.</p>
+
+ 	</div>
+ 		
+ 	<div class="graphpaper">
+	<div class="concept-name">Finding Multiple Strings In Strings</div> <div class="concept-summary"></div>
+ 		<p>To make the search more powerful, a second 
+ 		<span class="italic-weight">parameter</span>
+ 		can be added inside the parentheses naming the target string. The parameters are seperated by a comma and the second parameter is a number.</p>
+ 		<p>This number is the position in the search string where the search for the target string will begin. The output number of this search is the first position in the search string that the target string occurs.</p>
+
+
+
+ 		<p>To find if the target string occurs again in the search string, a variable can be created.</p>
+
+ 		<p>In the example: name = "kenzo kenzo kenzo"<br>
+ 			The target string is "kenzo"</p>
+ 		
+ 		<p>The variable first_kenzo is created to search variable, name, for the first occurance of "kenzo".</p>
+
+ 		<p>It looks like this: first_kenzo = name.find("kenzo")</p>
+ 		
+ 		<p>The position of 'first_kenzo' evaluates to 0. The variable 'first_kenzo' is now used as the second parameter. To find the next position of the string, adding '+1' to the second parameter tells Python to search 'name' for the "kenzo", starting at position 0+1.</p>
+
+ 		<p>This is what the input looks like: print name.find("kenzo",first_kenzo+1)<br>
+ 		The output evaluates to 6, since that is to next position where "kenzo" begins.</p>
+
+ 		<!--<p>The variable 'name' is searched for the target string 'kenzo', using the variable 'first_kenzo' and adding '+1' tells Python where to begin the search. In this example Python begins the search at position 1, since 'first_kenzo' is position 0.</p>-->
+ 	</div>
+
+ 	<div class="graphpaper">
+	<div class="concept-name">Replacing Strings</div> <div class="concept-summary"></div>
+	<p>Another function built into Python is <span class="italic-weight">replace</span>. This function searches for a target in the search string and replaces it with new input, returning a new string.</p>
+
+	<p>This is the basic structure of replace: example_string.replace(old, new)</p>
+
+	<p>It begins with search string, followed by <span class="italic-weight">.replace</span>, then surrounded by parentheses, the string to be replaced, seperated a comma the replacement string.</p>
+
+	<p>With the replace function, string slicing and concatenation, isn't required. Replace goes directly to the target string performs it's function. Three values have to be in the proper position for the function to work.
+
+	</p>In this example: name="Kenzo MIDDLE Masuda"</p>
+
+	<p>To replace MIDDLE the following format is needed: name = name.replace("MIDDLE", "Israel")</p>	
+
+	<p>The string, name, is be evaluated as the value of name, with the target value, "MIDDLE", to be replaced with the new value, "Isarel". The new value of string name is "Kenzo Israel Masuda".  
+ </div>
+</html>

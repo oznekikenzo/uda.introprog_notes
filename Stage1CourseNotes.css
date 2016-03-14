@@ -1,0 +1,60 @@
+/*desk*/
+body	{
+	font-family: sans-serif;
+	background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR9ffCYRPkIT2WbUM9nZJya6FD9Y4zSDnXHWW1sQtetU2EJkI0_);
+}	
+
+/*lesson*/
+.leather  { 
+  background: url(http://d9zprmkgswf02.cloudfront.net/m/613070300c5d0483/SwatchRangeMediumLandscape-SWATCH_PAR01_CANTERBURY4_LTHR-LONDON-SAD-DK-BRN-1033-21_CHERRY1.jpg);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  opacity: 0.9;
+}
+
+/*concept-image*/
+.graphpaper   {
+  background-image: url(http://cdn.printablepaper.net/samples/grid-portrait-letter-4-index.png);
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  opacity: 0.9;
+}
+
+h1   {
+  color: orange;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin: 10px;
+}
+
+.stage-name {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+/*lesson "#" graphpaper*/
+h2 {
+	text-align: center;
+  background-image: url(http://cdn.printablepaper.net/samples/grid-portrait-letter-4-index.png);
+  margin: 10px;
+  opacity: 0.9;
+  padding: 5px;
+  border-radius: 10px;
+}	
+
+.concept-name {
+  font-size: 15pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.italic-weight {
+  font-style: italic;
+  font-weight: 600;
+}
+.italic {
+  font-style: italic;
+}
